@@ -38,10 +38,6 @@ Route::resource('urls', UrlController::class)
 
 Route::get('shorten/{shortener_url}', [UrlController::class, 'shortenLink'])->name('shortener-url');
 
-
-
-
-
 Route::resource('categories', CategoryController::class);
 
 
